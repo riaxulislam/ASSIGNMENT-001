@@ -202,6 +202,28 @@ ul li{
     font-weight: 500;
 }
 
+.last{
+    padding-bottom: 120px;
+}
+
+.last h2{
+    margin-bottom: 16px;
+}
+
+.last div{
+    width: 1360px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.last button{
+    margin: 24px auto 16px auto;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
 
 
 

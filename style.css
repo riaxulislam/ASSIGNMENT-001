@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 body {
   font-family: "Inter", sans-serif;
@@ -40,7 +50,7 @@ ul li{
     gap: 10px;
 }
 
-main{
+.hero{
     background-image: url(assets/hero-bg.png);
     justify-content: center;
     padding: 115px 180px 120px;
@@ -104,5 +114,51 @@ main{
     align-items: center;
     gap: 10px;
 }
+
+
+.sec-section{
+    background-color: #FBFBFB;
+}
+
+.sec-section > div {
+    padding: 50px 0;
+    width: 1360px;
+    margin: auto;
+    text-align: center;
+}
+
+.sec-section > div > div{
+    margin-bottom: 44px;
+}
+
+.icon{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    margin: auto;
+}
+
+.card-items{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card{
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+.card > h4{
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+
+
 
 

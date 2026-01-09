@@ -39,17 +39,31 @@ ul li{
     list-style: none;
 }
 
-.btn{
+.btn {
     padding: 12px 16px;
     background-color: #30B868;
-    color: white;
-    border: #30B868;
+    color: #ffffff;
+    border: 1px solid #30B868;
     border-radius: 4px;
     font-size: 16px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn:hover {
+    background-color: #26a15a;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 14px 30px rgba(48, 184, 104, 0.35);
+}
+
+.btn:active {
+    transform: translateY(-1px) scale(0.98);
+    box-shadow: 0 8px 16px rgba(48, 184, 104, 0.25);
+}
+
 
 .hero{
     background-image: url(assets/hero-bg.png);
@@ -204,6 +218,8 @@ ul li{
 
 .last{
     padding-bottom: 120px;
+    width: 1360px;
+    margin: auto;
 }
 
 .last h2{
@@ -211,7 +227,6 @@ ul li{
 }
 
 .last div{
-    width: 1360px;
     background-color: #F7F6F2;
     padding: 80px 40px;
     margin: auto;
@@ -223,6 +238,51 @@ ul li{
     margin: 24px auto 16px auto;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
+
+footer{
+    background-color: #001931;
+    padding: 120px 0 30px 0;
+}
+
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    width: 1360px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+footer h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.social-icon i{
+    background-color: white;
+    padding: 5px;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    margin-right: 16px;
+}
+
+.ft-p {
+    width: 1360px;
+    margin: auto;
+    border-top: 2px solid #0c4479;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.ft-p > p{
+    color: white;
+    margin: auto;
+}
+
+
 
 
 
